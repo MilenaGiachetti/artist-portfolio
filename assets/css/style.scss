@@ -1,0 +1,50 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cardo', serif;
+    margin: 0;
+    min-height: 100vh;
+}
+   
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    aside {
+        width: 20%;
+        .igIframeCtn {
+            height: 0;
+            padding-bottom: 140%;
+            position: relative;
+            width: 100%;
+            .igIframe {
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: auto;
+}
